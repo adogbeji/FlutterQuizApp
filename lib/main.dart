@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Quiz App')
+        backgroundColor: Colors.purpleAccent,
+        body: Column(
+          children: <Widget>[
+            Image.asset('assets/images/quiz-logo.png', width: 220,),
+          ],
         ),
       ),
     )
